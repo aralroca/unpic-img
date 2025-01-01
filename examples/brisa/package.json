@@ -1,0 +1,19 @@
+{
+  "name": "brisa-example",
+  "module": "src/pages/index.tsx",
+  "type": "module",
+  "scripts": {
+    "dev": "brisa dev",
+    "dev:debug": "brisa dev --debug",
+    "build": "brisa build",
+    "start": "brisa start"
+  },
+  "dependencies": {
+    "@unpic/brisa": "file:../../packages/brisa",
+    "brisa": "0.2.1"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "typescript": "latest"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "name": "@unpic/brisa",
+  "version": "0.1.0",
+  "license": "MIT",
+  "description": "A high-performance, responsive, accessible image component for Brisa",
+  "keywords": [
+    "images",
+    "brisa"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ascorbic/unpic-img",
+    "directory": "packages/brisa"
+  },
+  "homepage": "https://unpic.pics/img/brisa",
+  "files": [
+    "src"
+  ],
+  "main": "./src/index.tsx",
+  "module": "./src/index.tsx",
+  "scripts": {
+    "dev": "tsc --watch",
+    "build": "tsc",
+    "prepublishOnly": "pnpm build"
+  },
+  "devDependencies": {
+    "brisa": "^0.2.1"
+  },
+  "dependencies": {
+    "@unpic/core": "file:../core"
+  },
+  "peerDependencies": {
+    "brisa": "*"
+  }
+}
